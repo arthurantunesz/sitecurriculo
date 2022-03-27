@@ -430,7 +430,7 @@ img{
     height: 380px;
     width: 62%;
     
-    margin-top: -27%;
+    margin-top: -60%;
     margin-left: 21%;
 }
 
