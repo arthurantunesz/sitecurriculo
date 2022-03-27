@@ -10,15 +10,15 @@
 </head>
 <body>
     <header class="header">
-        <a href="./index.html">Currículo</a>
+        <a href="./index.php">Currículo</a>
         <nav>
             <ul class="menu">
-                <li><a href="./index.html">Formação</a></li>
-                <li><a href="./index.html">Experiência</a></li>
-                <li><a href="./index.html">Habilidades</a></li>
-                <li><a href="./index.html">Certificações</a></li>
-                <li><a href="./projetos.html">Projetos</a></li>
-                <li><a href="./index.html">Contato</a></li>
+                <li><a href="./index.php">Formação</a></li>
+                <li><a href="./index.php">Experiência</a></li>
+                <li><a href="./index.php">Habilidades</a></li>
+                <li><a href="./index.php">Certificações</a></li>
+                <li><a href="./projetos.php">Projetos</a></li>
+                <li><a href="./index.php">Contato</a></li>
             </ul>
         </nav>
     </header>
