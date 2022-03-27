@@ -612,15 +612,15 @@ footer{
 </head>
 <body>
     <header class="header">
-        <a href="#">Currículo</a>
+        <a id="curriculo" href="#">Currículo</a>
         <nav>
             <ul class="menu">
-                <li><a href="#">Formação</a></li>
-                <li><a href="">Experiência</a></li>
-                <li><a href="">Habilidades</a></li>
-                <li><a href="">Certificações</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#certificacoes">Certificações</a></li>
                 <li><a href="./projetos.html">Projetos</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -666,7 +666,7 @@ footer{
                 você poderá me conhecer um pouquinho melhor do que por um currículo tradicional :)</p>
         </section>
     
-        <section class="formacao">
+        <section class="formacao" id="formacao">
             <h1>Formação</h1>
             <div class="formacao-content">
                 
@@ -689,8 +689,8 @@ footer{
                 </div>
             </div>
         </section>
-    
-        <section class="experiencia">
+
+        <section class="experiencia" id="experiencia">
             <h1>Experiência</h1>
             <div class="experiencia-content">
 
@@ -722,8 +722,8 @@ footer{
                 </div>
             </div>
         </section>
-
-        <section class="habilidades">
+            
+        <section class="habilidades" id="habilidades">
             <h1>Habilidades</h1>
             <div class="wrapper">
                 <div class="lista-item">
@@ -731,7 +731,11 @@ footer{
     
                     <div class="trigger-wrapper">
                         <label for="excel"><h2>Excel com Macros e VBA</h2></label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inc</p>
+                        <p>Por muito tempo utilizei o Excel diariamente no trabalho, utilizando todas as suas ferramentas
+                            como tabela dinâmica, formatação condicional e validação de dados. <br><br> Sei importar, editar e atualizar
+                            consultas com o Power Query. Além disso, dei um curso de Excel na empresa, onde ensinei automação 
+                            com o VBA, seja para agilizar uma tarefa rotineira, seja para integrar com a web.
+                        </p>
                     </div>
                 </div>
 
@@ -740,7 +744,11 @@ footer{
     
                     <div class="trigger-wrapper">
                         <label for="power bi"><h2>Power BI</h2></label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inc</p>
+                        <p>Eu elaboro e mantenho relatórios tanto para acompanhamento operacional, que discutimos com o time nas
+                            reuniões diárias, quanto para visão estratégica do negócio. <br><br> Faço dashboards impactantes e munidos de 
+                            insights para tomada de decisão. Após o curso que fiz e com a experiência, posso dizer que sou proficiente
+                            nessa ferramenta.
+                        </p>
                     </div>
                 </div>
 
@@ -749,7 +757,7 @@ footer{
     
                     <div class="trigger-wrapper">
                         <label for="office"><h2>Pacote Office</h2></label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inc</p>
+                        <p>Sei trabalhar com os programas Excel, PowerPoint, Word e Outlook.</p>
                     </div>
                 </div>
 
@@ -758,7 +766,10 @@ footer{
     
                     <div class="trigger-wrapper">
                         <label for="python"><h2>Python e R</h2></label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inc</p>
+                        <p>Fiz um curso de Python proporcionado pela FEA.dev, uma organização estudantil da minha
+                            faculdade. Essa linguagem de sintaxe simples é extremamente útil para análise de dados e até
+                            automações.
+                        </p>
                     </div>
                 </div>
 
@@ -767,7 +778,10 @@ footer{
     
                     <div class="trigger-wrapper">
                         <label for="ingles"><h2>Inglês fluente</h2></label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inc</p>
+                        <p>Nunca fiz curso, mas compreendo perfeitamente a língua falada e escrita. Adquiri o inglês 
+                            por consciência de sua necessidade em qualquer âmbito da vida. Hoje assisto a qualquer vídeo ou filme
+                            sem legenda e entendo. Quanto à gramática, estudei intensivamente no ensino médio.
+                        </p>
                     </div>
                 </div>
 
@@ -776,13 +790,15 @@ footer{
     
                     <div class="trigger-wrapper">
                         <label for="html"><h2>HTML e CSS</h2></label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inc</p>
+                        <p>Aprendi o básico dessas linguagens com um curso do NEU (Núcleo de Empreendedorismo da USP).
+                            Fiz esse site como projeto de entrega, onde pude praticar os conceitos.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
     
-        <h1>Certificações</h1>
+        <h1 id="certificacoes">Certificações</h1>
         <section class="certificacoes">
             <div>
                 <a href="http://www1.intranet.sp.senac.br/senac_solution/pss/relatorios/certificados/NBAS/index.cfm?CRYPTALGID=943309da-569c-11ec-bf08-af54f048cef5&dt=2021-12-06-10.58.24.000000"
@@ -846,7 +862,7 @@ footer{
         </section>
 
     
-    <section class="contato">
+    <section class="contato" id="contato">
         <fieldset class="card-contato">
             <legend><h1>Contato</h1></legend>
        
@@ -869,18 +885,6 @@ footer{
                             <label for="input-phone" class="inputlabel">Telefone</label>
                         </div>
     
-                        <input type="radio" id="emprego" name="motivo" value="emprego">
-                        <label for="emprego">Oferta de Emprego</label>
-    
-                        <input type="radio" id="entrevista" name="motivo" value="entrevista">
-                        <label for="entrevista">Marcar Entrevista</label>
-    
-                        <input type="radio" id="oportunidade" name="motivo" value="oportunidade">
-                        <label for="oportunidade">Oportunidade</label>
-    
-                        <input type="radio" id="presente" name="motivo" value="presente">
-                        <label for="presente">Enviar Presente</label>
-    
     
                         <div>
                             <textarea id="textarea" placeholder="Digite aqui..." name="mensagem"></textarea>
@@ -900,14 +904,19 @@ footer{
     
                     <h3>E-mail</h3>
                     <p>arthurantunes@usp.br</p>
+
+                    <div class="line">
+
+                    </div>
                 </div>
+
+                
             </div>
             
         </fieldset>
 
         <div class="quadrado">
         </div>
-        
             
     </section>
 
@@ -915,7 +924,6 @@ footer{
 </main>
 
 <footer>
-    <p></p>
 </footer>
 
 </body>
