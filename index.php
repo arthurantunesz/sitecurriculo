@@ -430,7 +430,7 @@ img{
     height: 400px;
     width: 62%;
     
-    margin-top: -27%;
+    margin-top: -25%;
     margin-left: 21%;
 }
 
@@ -890,8 +890,6 @@ footer{
                             <textarea id="textarea" placeholder="Digite aqui..." name="mensagem"></textarea>
                         </div>
     
-                        <input class="pointer" id="files" type="file" multiple>
-                        <input class="pointer" id="submit" type="submit" value="Enviar">
                     </fieldset>
                 </form>
     
