@@ -619,7 +619,7 @@ footer{
                 <li><a href="#experiencia">Experiência</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#certificacoes">Certificações</a></li>
-                <li><a href="./projetos.html">Projetos</a></li>
+                <li><a href="./projetos.php">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
