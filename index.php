@@ -427,10 +427,10 @@ img{
     position: relative;
     background-color: rgb(191, 208, 255);
 
-    height: 380px;
+    height: 400px;
     width: 62%;
     
-    margin-top: -30%;
+    margin-top: -27%;
     margin-left: 21%;
 }
 
