@@ -31,7 +31,7 @@
 
     <section class="card"> 
         <div>
-            <img src="./assets/Foto Arthur 3x4.png" alt="">
+            <img src="./assets/Foto 3x4.png" alt="">
         </div>
         <div class="infos">
             <h1>Arthur Antunes Estrela</h1>
