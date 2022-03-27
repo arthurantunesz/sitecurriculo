@@ -412,7 +412,7 @@ img{
 }
 
 .card-contato{
-    height: 600px;
+    height: 500px;
     width: 60%;
     margin: 0 auto;
     border: solid 5px var(--cinzaescuro);
